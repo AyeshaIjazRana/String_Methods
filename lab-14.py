@@ -1,12 +1,3 @@
-# String Methods(built-in functions that help you manipulate and analyze text) (Case Conversion Method)
-# isupper() tells true or false if all the alphabets are in upper case and similarly is lower is for lower case letter
-# count()-count the specific character in word
-# index()-find the position of some character 
-# strip()-to remove extra spaces, use for data cleaning
-# replace(old,new)-swaps one piece of text with another
-# split(separator)-separate like a space or comma
-# positive and negative index
-
 # Tasks:
 
 # 1. new_password = " mySecretWord "
@@ -35,7 +26,7 @@ inventory_list=fresh_inventory.split(";")
 inventory=",".join(inventory_list) #Confused in this step
 print(inventory)  
       
-# secret_message = "The quick rabbit runs past the resting turtle."
+# 3. secret_message = "The quick rabbit runs past the resting turtle."
 # • Count exactly how many times the letter "r" appears in the message and print the
 # number.
 # • Find the exact starting index position of the word "turtle", “runs” , “rabbit” & “past”
@@ -48,7 +39,7 @@ print("The word runs is at index",secret_message.index("runs"),"in secret_messag
 print("The word rabbit is at index",secret_message.index("rabbit"),"in secret_message.")
 print("The word past is at index",secret_message.index("past"),"in secret_message.")
 
-# alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+# 4. alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 # • Extract and print the first 5 letters of the alphabet.
 # • Use a negative index to extract and print the last 3 letters of the alphabet.
 # • Use the step feature to print every second letter of the alphabet (A, C, E, etc.).
@@ -78,3 +69,4 @@ word=enc_word.split("-")
 print(word)
 decode_word="".join(word)
 print(decode_word.upper())
+
