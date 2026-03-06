@@ -23,7 +23,7 @@ print("Password:",updated_pwd.upper())
 messy_inventory = "apples;bananas;rotten_pears;grapes"
 fresh_inventory=messy_inventory.replace("rotten_pears","fresh_pears")
 inventory_list=fresh_inventory.split(";")
-inventory=",".join(inventory_list) #Confused in this step
+inventory=",".join(inventory_list) 
 print(inventory)  
       
 # 3. secret_message = "The quick rabbit runs past the resting turtle."
@@ -69,4 +69,5 @@ word=enc_word.split("-")
 print(word)
 decode_word="".join(word)
 print(decode_word.upper())
+
 
